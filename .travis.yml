@@ -1,0 +1,30 @@
+language: bash
+sudo: required
+services:
+  - docker
+before_install:
+  - export TZ='Asia/Shanghai'
+  - date
+  - git config --global user.name "Starrier"
+  - git config --global user.email "starrier@starrier.org"
+script:
+  - docker run -it --rm -v $PWD:/srv/gitbook-src starrier/starrier-org-blogs build
+after_success:
+  - sudo chmod -R 777 _book
+  - cd _book
+  - git init
+  - git remote add origin "$REPO"
+  - git add .
+  - COMMIT=`date "+%F %T"`
+  - git commit -m "Travis CI Site updated $COMMIT"
+  - git push -f origin master:"$DEPLOY_BRANCH"
+env:
+  global:
+    - DEPLOY_BRANCH: master
+    - REPO: git@github.com:Starrier/starrier-org-blogs.git
+addons:
+  ssh_known_hosts:
+    - github.com
+branches:
+  only:
+    - master

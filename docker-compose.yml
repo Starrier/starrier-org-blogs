@@ -1,0 +1,27 @@
+version: "3"
+services:
+
+  server:
+
+    image: starrier/starrier-org-blogs:latest
+    ports:
+      - 4000:4000
+    volumes:
+      - ./:/srv/gitbook-src
+    command: server
+
+  build:
+    image: starrier/starrier-org-blogs:latest
+    volumes:
+      - ./:/srv/gitbook-src
+    command: build
+
+  development:
+    build: ./.travis
+    image: starrier/starrier-org-blogs:latest
+    ports:
+      - 4000:4000
+    volumes:
+      - ./:/srv/gitbook-src
+    command: server
+    # command: build
