@@ -1,13 +1,4 @@
----
-title: 分布式理论-CAP
-date: 2019-02-22 23:40:04
-author: Imperator
-tags: [distribute,CAP]
-excerpt: 分布式系统 - CAP 理论
----
-
-
-## 分布式理论 - `CAP`
+# 分布式理论 - `CAP`
 
 > * 原文地址：[]()
 > * 原文作者：[]()

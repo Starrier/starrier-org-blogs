@@ -1,14 +1,3 @@
----
-title: 数据结构 - Tire - 字典树
-date: 2021-02-07 15:48:26
-author: Imperater
-tags: [数据结构,datastruct,字典树,tire-tree]
-excerpt: 数据机构 - Tire - 字典树
-swiper:
-keywords: [数据结构,datastruct,字典树,tire-tree]
-description: 数据机构 - Tire - 字典树
----
-
 # 数据结构 - Tire - 字典树
 
 > * 原文地址：[]()

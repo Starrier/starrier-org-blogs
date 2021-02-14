@@ -1,14 +1,3 @@
----
-title: 深度神经网络简介
-date: 2021-02-05 00:05:19
-author: Starriers
-tags: [dp,deep-learning]
-excerpt: 深度神经网络简介
-swiper:
-keywords: [dp,deep-learning]
-description: 深度神经网络简介
----
-
 # 深度神经网络简介
 
 > * 原文地址：[]()

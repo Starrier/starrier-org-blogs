@@ -1,14 +1,3 @@
----
-title: 深度学习 - 前向传播算法
-date: 2021-02-05 00:22:07
-author: Starriers
-tags: [dp,deep-learning]
-excerpt: 深度学习 - 前向传播算法
-swiper:
-keywords: [dp,deep-learning]
-description: 深度学习 - 前向传播算法
----
-
 # 深度学习 - 前向传播算法
 
 > * 原文地址：[]()

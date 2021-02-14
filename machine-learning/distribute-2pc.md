@@ -1,14 +1,3 @@
----
-title: 分布式理论 2PC 详解
-date: 2021-01-29 16:07:40
-author: Imperator
-tags: [distribute,2pc]
-excerpt: 分布式理论 2PC 详解
-swiper:
-keywords: [distribute,2pc]
-description: 分布式理论 2PC 详解
----
-
 # 分布式理论 - 2PC 详解
 
 > * 原文地址：[]()
